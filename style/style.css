@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background: linear-gradient(135deg, #d8e6ff, #b8d8ff);
+
+    font-family: 'Poppins', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+
+    padding: 30px;
+}
+
+.card{
+
+    width: 700px;
+
+    background: white;
+
+    border-radius: 15px;
+
+    padding: 30px;
+
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
+
+    text-align: center;
+}
+
+h1{
+
+    color: #1d3557;
+
+    margin-bottom: 20px;
+}
+
+img{
+
+    width: 220px;
+
+    border: 5px solid #457b9d;
+
+    border-radius: 50%;
+
+    margin-bottom: 25px;
+
+    transition: 0.3s;
+}
+
+img:hover{
+
+    transform: scale(1.05);
+}
+
+.apresentacao{
+
+    background: #edf4ff;
+
+    border-left: 6px solid #457b9d;
+
+    padding: 20px;
+
+    margin-bottom: 30px;
+
+    text-align: justify;
+
+    border-radius: 8px;
+}
+
+.apresentacao h2{
+
+    margin-bottom: 10px;
+
+    color: #1d3557;
+}
+
+.informacoes{
+
+    text-align: left;
+
+    margin-bottom: 30px;
+}
+
+.informacoes h2{
+
+    margin-bottom: 15px;
+
+    color: #1d3557;
+}
+
+ul{
+
+    list-style-type: square;
+
+    padding-left: 25px;
+}
+
+li{
+
+    margin-bottom: 12px;
+
+    font-size: 18px;
+}
+
+.musica{
+
+    margin-top: 35px;
+
+    background: #edf4ff;
+
+    padding: 20px;
+
+    border-radius: 8px;
+
+    border-left: 6px solid rgb(1, 43, 122);
+
+    text-align: center;
+}
+
+.musica h2{
+
+    margin-bottom: 10px;
+
+    color: #1d3557;
+}
+
+.musica p{
+
+    margin-bottom: 15px;
+}
+
+.habilidades{
+
+    margin-top: 35px;
+
+    background: #ffffff;
+
+    padding: 20px;
+
+    border-radius: 8px;
+
+    border-left: 6px solid rgb(44, 73, 112);
+
+    text-align: left;
+}
+
+.habilidades h2{
+
+    margin-bottom: 15px;
+
+    color: rgb(49, 81, 126);
+}
+
+.redes{
+
+    margin-top: 35px;
+}
+
+.redes h2{
+
+    color: #1d3557;
+
+    margin-bottom: 15px;
+}
+
+.redes a{
+
+    text-decoration: none;
+
+    color: white;
+
+    background: #1d3557;
+
+    padding: 10px 18px;
+
+    border-radius: 8px;
+
+    margin: 5px;
+
+    display: inline-block;
+
+    transition: 0.3s;
+}
+
+.redes a:hover{
+
+    background: rgb(78, 142, 181);
+
+    transform: scale(1.05);
+}
+
+footer{
+
+    margin-top: 40px;
+
+    padding-top: 20px;
+
+    border-top: 1px solid #ddd;
+
+    color: rgb(0, 0, 0);
+
+    font-size: 14px;
+}
+
+.data{
+
+    color: #000000;
+
+    font-size: 14px;
+
+    margin-bottom: 20px;
+}
+
+iframe{
+
+    width: 100%;
+
+    border-radius: 12px;
+}
