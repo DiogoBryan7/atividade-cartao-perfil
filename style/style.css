@@ -19,7 +19,7 @@ body{
     padding: 30px;
 }
 
-.card{
+.t1{
 
     width: 700px;
 
@@ -128,7 +128,7 @@ li{
 
     margin-bottom: 10px;
 
-    color: #1d3557;
+    color: #000000;
 }
 
 .musica p{
@@ -209,7 +209,7 @@ footer{
     font-size: 14px;
 }
 
-.data{
+.sobre{
 
     color: #000000;
 
@@ -223,4 +223,8 @@ iframe{
     width: 100%;
 
     border-radius: 12px;
+}
+
+.p2{
+    color: black;
 }
